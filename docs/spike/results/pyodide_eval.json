@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-10-26",
+  "pyodidePackageVersion": "0.27.5",
+  "pythonVersionInWasm": "3.12.7",
+  "mountedSonoForgeDomain": true,
+  "coreRuntimePayload": {
+    "wasm": {
+      "rawKiB": 9866.5,
+      "gzipKiB": 3152.8
+    },
+    "asmJs": {
+      "rawKiB": 1224.4,
+      "gzipKiB": 230.9
+    },
+    "stdlibZip": {
+      "rawKiB": 2303.6,
+      "gzipKiB": 2267.1
+    },
+    "totalRawMiB": 13.08,
+    "totalGzipMiB": 5.52,
+    "additionalRequiredWheelsNote": "echo_personal_tool/domain/calculations/__init__.py eagerly imports doppler_metrics (numpy) and lvef_simpson -> contour_geometry (scipy.interpolate). Running unmodified domain/ in browser adds numpy + scipy + pydicom wheels (~25-30 MiB extra download)."
+  },
+  "coldStartAndMemory": {
+    "nodeLocalColdBootMs": 1469.8,
+    "pureModuleLoadMs": 53.6,
+    "wasmLinearMemoryMiB": 20,
+    "processRssDeltaMiB": 83.8
+  },
+  "callThroughput1000Iterations": {
+    "pyodideFfiTotalMs": 10.23,
+    "pyodidePerCallUs": 10.23,
+    "typeScriptTotalMs": 1.925,
+    "typeScriptPerCallUs": 1.925,
+    "speedupFactorTsOverPyodide": 5.3
+  },
+  "wasmConstraintsVerified": {
+    "eagerPackageInitRequiresNumpyScipy": true,
+    "eagerPackageInitError": "ModuleNotFoundError: No module named 'numpy'",
+    "threadingWorks": false,
+    "threadingError": "RuntimeError: can't start new thread",
+    "hasOpenJpegWheelInPyodide": false,
+    "hasCharlsWheelInPyodide": false,
+    "hasOnnxRuntimeWheelInPyodide": false
+  },
+  "sampleCalculationCheck": {
+    "bsa": 2.0012056142442325,
+    "edv": 107.52,
+    "ef": 64.73603219696969,
+    "mass": 153.26170400000004,
+    "ava": 0.6488071784587616,
+    "pgMmHg": 75.68999999999998
+  }
+}
