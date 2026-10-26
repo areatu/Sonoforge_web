@@ -1,0 +1,506 @@
+[
+  {
+    "file": "01_ge_vivid_2d_uncompressed.dcm",
+    "sizeBytes": 77908,
+    "transferSyntaxUid": "1.2.840.10008.1.2.1",
+    "rows": 240,
+    "columns": 320,
+    "samplesPerPixel": 1,
+    "bitsAllocated": 8,
+    "bitsStored": 8,
+    "photometricInterpretation": "MONOCHROME2",
+    "numberOfFrames": 1,
+    "manufacturer": "GE Healthcare",
+    "modelName": "Vivid E95",
+    "decodableInPydicom": true,
+    "frame0Sha256": "6e1a8b552e03fbad0b4351e263d1dcd6f8d0dbab634964fd160f7b60c73dad1a",
+    "frame0Min": 0,
+    "frame0Max": 248,
+    "frame0Mean": 20.4953,
+    "frame0Samples": [
+      {
+        "row": 0,
+        "col": 0,
+        "value": 17
+      },
+      {
+        "row": 120,
+        "col": 160,
+        "value": 12
+      },
+      {
+        "row": 110,
+        "col": 144,
+        "value": 16
+      },
+      {
+        "row": 239,
+        "col": 319,
+        "value": 0
+      }
+    ],
+    "lossless": true,
+    "expectedSpacingMm": [
+      0.35,
+      0.35
+    ],
+    "expectedSpacingSource": "SequenceOfUltrasoundRegions"
+  },
+  {
+    "file": "02_philips_epiq_cine_uncompressed.dcm",
+    "sizeBytes": 787440,
+    "transferSyntaxUid": "1.2.840.10008.1.2.1",
+    "rows": 192,
+    "columns": 256,
+    "samplesPerPixel": 1,
+    "bitsAllocated": 8,
+    "bitsStored": 8,
+    "photometricInterpretation": "MONOCHROME2",
+    "numberOfFrames": 16,
+    "manufacturer": "Philips Medical Systems",
+    "modelName": "EPIQ 7G",
+    "decodableInPydicom": true,
+    "frame0Sha256": "d56a3fef981623157ace1659fa0bf4c57208e35fafc6b1e0312392da1f0a6331",
+    "frame0Min": 0,
+    "frame0Max": 248,
+    "frame0Mean": 20.4807,
+    "frame0Samples": [
+      {
+        "row": 0,
+        "col": 0,
+        "value": 17
+      },
+      {
+        "row": 96,
+        "col": 128,
+        "value": 15
+      },
+      {
+        "row": 88,
+        "col": 115,
+        "value": 16
+      },
+      {
+        "row": 191,
+        "col": 255,
+        "value": 0
+      }
+    ],
+    "lossless": true,
+    "expectedSpacingMm": [
+      0.3,
+      0.3
+    ],
+    "expectedSpacingSource": "PixelSpacing"
+  },
+  {
+    "file": "03_siemens_acuson_16bit_implicit.dcm",
+    "sizeBytes": 116160,
+    "transferSyntaxUid": "1.2.840.10008.1.2",
+    "rows": 240,
+    "columns": 240,
+    "samplesPerPixel": 1,
+    "bitsAllocated": 16,
+    "bitsStored": 12,
+    "photometricInterpretation": "MONOCHROME2",
+    "numberOfFrames": 1,
+    "manufacturer": "SIEMENS",
+    "modelName": "ACUSON SC2000",
+    "decodableInPydicom": true,
+    "frame0Sha256": "5886b6821319dcbff30d0a04d42d07128a87815fc2bd8d0f90a3e083c29315d2",
+    "frame0Min": 0,
+    "frame0Max": 3968,
+    "frame0Mean": 445.6488,
+    "frame0Samples": [
+      {
+        "row": 0,
+        "col": 0,
+        "value": 272
+      },
+      {
+        "row": 120,
+        "col": 120,
+        "value": 260
+      },
+      {
+        "row": 110,
+        "col": 108,
+        "value": 291
+      },
+      {
+        "row": 239,
+        "col": 239,
+        "value": 0
+      }
+    ],
+    "lossless": true,
+    "expectedSpacingMm": [
+      0.28,
+      0.28
+    ],
+    "expectedSpacingSource": "PixelSpacing"
+  },
+  {
+    "file": "04_samsung_v8_cine_jpeg_baseline.dcm",
+    "sizeBytes": 78048,
+    "transferSyntaxUid": "1.2.840.10008.1.2.4.50",
+    "rows": 192,
+    "columns": 256,
+    "samplesPerPixel": 1,
+    "bitsAllocated": 8,
+    "bitsStored": 8,
+    "photometricInterpretation": "MONOCHROME2",
+    "numberOfFrames": 10,
+    "manufacturer": "SAMSUNG MEDISON",
+    "modelName": "V8",
+    "decodableInPydicom": true,
+    "frame0Sha256": "c496daf637163fba7fe2e746c275ceee84c09dfddd824bfa97aa694eaf16bd43",
+    "frame0Min": 0,
+    "frame0Max": 255,
+    "frame0Mean": 20.5501,
+    "frame0Samples": [
+      {
+        "row": 0,
+        "col": 0,
+        "value": 12
+      },
+      {
+        "row": 96,
+        "col": 128,
+        "value": 15
+      },
+      {
+        "row": 88,
+        "col": 115,
+        "value": 15
+      },
+      {
+        "row": 191,
+        "col": 255,
+        "value": 0
+      }
+    ],
+    "lossless": false,
+    "expectedSpacingMm": [
+      0.32,
+      0.32
+    ],
+    "expectedSpacingSource": "PixelSpacing"
+  },
+  {
+    "file": "05_ge_vivid_color_jpeg_ybr422.dcm",
+    "sizeBytes": 79938,
+    "transferSyntaxUid": "1.2.840.10008.1.2.4.50",
+    "rows": 192,
+    "columns": 256,
+    "samplesPerPixel": 3,
+    "bitsAllocated": 8,
+    "bitsStored": 8,
+    "photometricInterpretation": "YBR_FULL_422",
+    "numberOfFrames": 8,
+    "manufacturer": "GE Healthcare",
+    "modelName": "Vivid S70N",
+    "decodableInPydicom": true,
+    "frame0Sha256": "f67e8f2668b2c1fd4a6a42a4dee8ac8ad2ac852bd63f4232395c0d1712fd39fe",
+    "frame0Min": 0,
+    "frame0Max": 255,
+    "frame0Mean": 25.7709,
+    "frame0Samples": [
+      {
+        "row": 0,
+        "col": 0,
+        "value": [
+          12,
+          12,
+          12
+        ]
+      },
+      {
+        "row": 96,
+        "col": 128,
+        "value": [
+          228,
+          103,
+          19
+        ]
+      },
+      {
+        "row": 88,
+        "col": 115,
+        "value": [
+          21,
+          83,
+          166
+        ]
+      },
+      {
+        "row": 191,
+        "col": 255,
+        "value": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "lossless": false,
+    "expectedSpacingMm": [
+      0.34,
+      0.34
+    ],
+    "expectedSpacingSource": "SequenceOfUltrasoundRegions"
+  },
+  {
+    "file": "06_mindray_resona_jpeg_lossless_p14sv1.dcm",
+    "sizeBytes": 131042,
+    "transferSyntaxUid": "1.2.840.10008.1.2.4.70",
+    "rows": 192,
+    "columns": 256,
+    "samplesPerPixel": 1,
+    "bitsAllocated": 8,
+    "bitsStored": 8,
+    "photometricInterpretation": "MONOCHROME2",
+    "numberOfFrames": 8,
+    "manufacturer": "Mindray",
+    "modelName": "Resona I9",
+    "decodableInPydicom": true,
+    "frame0Sha256": "d56a3fef981623157ace1659fa0bf4c57208e35fafc6b1e0312392da1f0a6331",
+    "frame0Min": 0,
+    "frame0Max": 248,
+    "frame0Mean": 20.4807,
+    "frame0Samples": [
+      {
+        "row": 0,
+        "col": 0,
+        "value": 17
+      },
+      {
+        "row": 96,
+        "col": 128,
+        "value": 15
+      },
+      {
+        "row": 88,
+        "col": 115,
+        "value": 16
+      },
+      {
+        "row": 191,
+        "col": 255,
+        "value": 0
+      }
+    ],
+    "lossless": true,
+    "expectedSpacingMm": [
+      0.31,
+      0.31
+    ],
+    "expectedSpacingSource": "PixelSpacing"
+  },
+  {
+    "file": "07_canon_aplio_jpegls_lossless.dcm",
+    "sizeBytes": 58936,
+    "transferSyntaxUid": "1.2.840.10008.1.2.4.80",
+    "rows": 192,
+    "columns": 256,
+    "samplesPerPixel": 1,
+    "bitsAllocated": 8,
+    "bitsStored": 8,
+    "photometricInterpretation": "MONOCHROME2",
+    "numberOfFrames": 8,
+    "manufacturer": "Canon Medical Systems",
+    "modelName": "Aplio i900",
+    "decodableInPydicom": true,
+    "frame0Sha256": "d56a3fef981623157ace1659fa0bf4c57208e35fafc6b1e0312392da1f0a6331",
+    "frame0Min": 0,
+    "frame0Max": 248,
+    "frame0Mean": 20.4807,
+    "frame0Samples": [
+      {
+        "row": 0,
+        "col": 0,
+        "value": 17
+      },
+      {
+        "row": 96,
+        "col": 128,
+        "value": 15
+      },
+      {
+        "row": 88,
+        "col": 115,
+        "value": 16
+      },
+      {
+        "row": 191,
+        "col": 255,
+        "value": 0
+      }
+    ],
+    "lossless": true,
+    "expectedSpacingMm": [
+      0.29,
+      0.29
+    ],
+    "expectedSpacingSource": "PixelSpacing"
+  },
+  {
+    "file": "08_philips_epiq_jpeg2000_lossless.dcm",
+    "sizeBytes": 181998,
+    "transferSyntaxUid": "1.2.840.10008.1.2.4.90",
+    "rows": 240,
+    "columns": 320,
+    "samplesPerPixel": 1,
+    "bitsAllocated": 8,
+    "bitsStored": 8,
+    "photometricInterpretation": "MONOCHROME2",
+    "numberOfFrames": 12,
+    "manufacturer": "Philips Medical Systems",
+    "modelName": "EPIQ CVx",
+    "decodableInPydicom": true,
+    "frame0Sha256": "6e1a8b552e03fbad0b4351e263d1dcd6f8d0dbab634964fd160f7b60c73dad1a",
+    "frame0Min": 0,
+    "frame0Max": 248,
+    "frame0Mean": 20.4953,
+    "frame0Samples": [
+      {
+        "row": 0,
+        "col": 0,
+        "value": 17
+      },
+      {
+        "row": 120,
+        "col": 160,
+        "value": 12
+      },
+      {
+        "row": 110,
+        "col": 144,
+        "value": 16
+      },
+      {
+        "row": 239,
+        "col": 319,
+        "value": 0
+      }
+    ],
+    "lossless": true,
+    "expectedSpacingMm": [
+      0.27,
+      0.27
+    ],
+    "expectedSpacingSource": "PixelSpacing"
+  },
+  {
+    "file": "09_philips_ie33_rle_lossless.dcm",
+    "sizeBytes": 162110,
+    "transferSyntaxUid": "1.2.840.10008.1.2.5",
+    "rows": 192,
+    "columns": 256,
+    "samplesPerPixel": 1,
+    "bitsAllocated": 8,
+    "bitsStored": 8,
+    "photometricInterpretation": "MONOCHROME2",
+    "numberOfFrames": 8,
+    "manufacturer": "Philips Medical Systems",
+    "modelName": "iE33",
+    "decodableInPydicom": true,
+    "frame0Sha256": "d56a3fef981623157ace1659fa0bf4c57208e35fafc6b1e0312392da1f0a6331",
+    "frame0Min": 0,
+    "frame0Max": 248,
+    "frame0Mean": 20.4807,
+    "frame0Samples": [
+      {
+        "row": 0,
+        "col": 0,
+        "value": 17
+      },
+      {
+        "row": 96,
+        "col": 128,
+        "value": 15
+      },
+      {
+        "row": 88,
+        "col": 115,
+        "value": 16
+      },
+      {
+        "row": 191,
+        "col": 255,
+        "value": 0
+      }
+    ],
+    "lossless": true,
+    "expectedSpacingMm": [
+      0.3,
+      0.3
+    ],
+    "expectedSpacingSource": "PixelSpacing"
+  },
+  {
+    "file": "10_uncalibrated_handheld_us.dcm",
+    "sizeBytes": 50122,
+    "transferSyntaxUid": "1.2.840.10008.1.2.1",
+    "rows": 192,
+    "columns": 256,
+    "samplesPerPixel": 1,
+    "bitsAllocated": 8,
+    "bitsStored": 8,
+    "photometricInterpretation": "MONOCHROME2",
+    "numberOfFrames": 1,
+    "manufacturer": "Handheld Ultrasound",
+    "modelName": "PocketProbe P1",
+    "decodableInPydicom": true,
+    "frame0Sha256": "d56a3fef981623157ace1659fa0bf4c57208e35fafc6b1e0312392da1f0a6331",
+    "frame0Min": 0,
+    "frame0Max": 248,
+    "frame0Mean": 20.4807,
+    "frame0Samples": [
+      {
+        "row": 0,
+        "col": 0,
+        "value": 17
+      },
+      {
+        "row": 96,
+        "col": 128,
+        "value": 15
+      },
+      {
+        "row": 88,
+        "col": 115,
+        "value": 16
+      },
+      {
+        "row": 191,
+        "col": 255,
+        "value": 0
+      }
+    ],
+    "lossless": true,
+    "expectedSpacingMm": null,
+    "expectedSpacingSource": null
+  },
+  {
+    "file": "11_unsupported_mpeg2_stub.dcm",
+    "sizeBytes": 1124,
+    "transferSyntaxUid": "1.2.840.10008.1.2.4.100",
+    "rows": 240,
+    "columns": 320,
+    "samplesPerPixel": 1,
+    "bitsAllocated": 8,
+    "bitsStored": 8,
+    "photometricInterpretation": "MONOCHROME2",
+    "numberOfFrames": 30,
+    "manufacturer": "Legacy Vendor",
+    "modelName": "EchoStation Video",
+    "decodableInPydicom": false,
+    "lossless": false,
+    "expectedSpacingMm": [
+      0.3,
+      0.3
+    ],
+    "expectedSpacingSource": "PixelSpacing"
+  }
+]

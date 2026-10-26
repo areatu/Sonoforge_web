@@ -1,0 +1,22 @@
+# Dependencies & build output
+node_modules/
+dist/
+build/
+out/
+coverage/
+
+# Python environments & caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Stage 0 generated heavy benchmark DICOM cines (reproducible via spike:fixtures)
+.spike-bench-data/
+spike/web-proto/public/samples/
+
+# Editor / OS
+.DS_Store
+*.tsbuildinfo

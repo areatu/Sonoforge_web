@@ -1,0 +1,174 @@
+{
+  "generatedAt": "2026-10-26",
+  "domainTsCore": {
+    "totalRawKiB": 8.3,
+    "totalGzipKiB": 3.2,
+    "files": [
+      {
+        "file": "entry-BUzn8B6C.js",
+        "rawKiB": 8.3,
+        "gzipKiB": 3.2
+      }
+    ]
+  },
+  "modularDicomAdapterWithLazyCodecs": {
+    "totalRawKiB": 1039.5,
+    "totalGzipKiB": 350.1,
+    "files": [
+      {
+        "file": "openjphjs-odeu-u12.wasm",
+        "rawKiB": 292.9,
+        "gzipKiB": 94
+      },
+      {
+        "file": "openjpegwasm_decode-BP3l1OXH.wasm",
+        "rawKiB": 254.2,
+        "gzipKiB": 84.3
+      },
+      {
+        "file": "libjpegturbowasm_decode-B4UEe-KN.wasm",
+        "rawKiB": 176.3,
+        "gzipKiB": 68.4
+      },
+      {
+        "file": "charlswasm_decode-CEN7ucFR.wasm",
+        "rawKiB": 142,
+        "gzipKiB": 45.5
+      },
+      {
+        "file": "entry-DK2znwO9.js",
+        "rawKiB": 49.4,
+        "gzipKiB": 13.2
+      },
+      {
+        "file": "openjphjs-C638BWJL.js",
+        "rawKiB": 28.3,
+        "gzipKiB": 10.2
+      },
+      {
+        "file": "libjpegturbowasm_decode-BphCfGb3.js",
+        "rawKiB": 28.1,
+        "gzipKiB": 10.4
+      },
+      {
+        "file": "openjpegwasm_decode-WgootY-6.js",
+        "rawKiB": 27.6,
+        "gzipKiB": 10.2
+      },
+      {
+        "file": "charlswasm_decode-E1yZwRk2.js",
+        "rawKiB": 26.5,
+        "gzipKiB": 9.7
+      },
+      {
+        "file": "lossless-D_g4yv5v.js",
+        "rawKiB": 14.2,
+        "gzipKiB": 4.2
+      }
+    ]
+  },
+  "wasmCodecBinaries": {
+    "openjpegDecodeWasm": {
+      "rawKiB": 254.2,
+      "gzipKiB": 84.3
+    },
+    "libjpegTurboDecodeWasm": {
+      "rawKiB": 176.3,
+      "gzipKiB": 68.4
+    },
+    "charlsDecodeWasm": {
+      "rawKiB": 142,
+      "gzipKiB": 45.5
+    },
+    "openjphDecodeWasm": {
+      "rawKiB": 292.9,
+      "gzipKiB": 94
+    }
+  },
+  "dwv036": {
+    "mainBundle": {
+      "totalRawKiB": 843.3,
+      "totalGzipKiB": 223.8,
+      "files": [
+        {
+          "file": "entry-BFHNm5de.js",
+          "rawKiB": 843.3,
+          "gzipKiB": 223.8
+        }
+      ]
+    },
+    "workerScripts": [
+      {
+        "file": "jpeg2000.worker.min.js",
+        "rawKiB": 35.7,
+        "gzipKiB": 12.5
+      },
+      {
+        "file": "jpegbaseline.worker.min.js",
+        "rawKiB": 11.5,
+        "gzipKiB": 5.4
+      },
+      {
+        "file": "jpegloss.worker.min.js",
+        "rawKiB": 16.8,
+        "gzipKiB": 4.2
+      },
+      {
+        "file": "rle.worker.min.js",
+        "rawKiB": 1,
+        "gzipKiB": 0.6
+      }
+    ]
+  },
+  "cornerstone3dMonolithic": {
+    "totalRawKiB": 5277.5,
+    "totalGzipKiB": 1562.6,
+    "files": [
+      {
+        "file": "entry-BlP7jOkz.js",
+        "rawKiB": 3095.3,
+        "gzipKiB": 829.8
+      },
+      {
+        "file": "jpegxlwasm_decode-D5WHnpK-.wasm",
+        "rawKiB": 1065.2,
+        "gzipKiB": 368.3
+      },
+      {
+        "file": "openjphjs-odeu-u12.wasm",
+        "rawKiB": 292.9,
+        "gzipKiB": 94
+      },
+      {
+        "file": "openjpegwasm_decode-BP3l1OXH.wasm",
+        "rawKiB": 254.2,
+        "gzipKiB": 84.3
+      },
+      {
+        "file": "decodeImageFrameWorker-BGz28jhi.js",
+        "rawKiB": 227.5,
+        "gzipKiB": 64
+      },
+      {
+        "file": "libjpegturbowasm_decode-B4UEe-KN.wasm",
+        "rawKiB": 176.3,
+        "gzipKiB": 68.4
+      },
+      {
+        "file": "charlswasm_decode-CEN7ucFR.wasm",
+        "rawKiB": 142,
+        "gzipKiB": 45.5
+      },
+      {
+        "file": "lossless-NoYY42n_.js",
+        "rawKiB": 14,
+        "gzipKiB": 4.1
+      },
+      {
+        "file": "jpeg-17RUpS_o.js",
+        "rawKiB": 10.1,
+        "gzipKiB": 4.2
+      }
+    ]
+  }
+}

@@ -1,0 +1,521 @@
+{
+  "generatedAt": "2026-10-26",
+  "nodeVersion": "v22.22.3",
+  "platform": "linux-x64",
+  "compatibilityMatrix": [
+    {
+      "file": "01_ge_vivid_2d_uncompressed.dcm",
+      "manufacturer": "GE Healthcare",
+      "modelName": "Vivid E95",
+      "transferSyntaxUid": "1.2.840.10008.1.2.1",
+      "transferSyntaxName": "Explicit VR Little Endian",
+      "dimensions": "320x240x1",
+      "photometric": "MONOCHROME2",
+      "bitsAllocated": 8,
+      "calibrationResolved": {
+        "spacingMm": [
+          0.35,
+          0.35
+        ],
+        "source": "SequenceOfUltrasoundRegions"
+      },
+      "modularWasmAdapter": {
+        "parseMs": 4.473,
+        "decodeOk": true,
+        "coldFrame0Ms": 1.448,
+        "losslessSha256Exact": true,
+        "error": null
+      },
+      "dwv036": {
+        "parseOk": true,
+        "parseMs": 1.539,
+        "decodeOk": true,
+        "frame0Ms": 0.018,
+        "losslessSha256Exact": true,
+        "note": null
+      }
+    },
+    {
+      "file": "02_philips_epiq_cine_uncompressed.dcm",
+      "manufacturer": "Philips Medical Systems",
+      "modelName": "EPIQ 7G",
+      "transferSyntaxUid": "1.2.840.10008.1.2.1",
+      "transferSyntaxName": "Explicit VR Little Endian",
+      "dimensions": "256x192x16",
+      "photometric": "MONOCHROME2",
+      "bitsAllocated": 8,
+      "calibrationResolved": {
+        "spacingMm": [
+          0.3,
+          0.3
+        ],
+        "source": "PixelSpacing"
+      },
+      "modularWasmAdapter": {
+        "parseMs": 0.367,
+        "decodeOk": true,
+        "coldFrame0Ms": 0.176,
+        "losslessSha256Exact": true,
+        "error": null
+      },
+      "dwv036": {
+        "parseOk": true,
+        "parseMs": 0.602,
+        "decodeOk": true,
+        "frame0Ms": 0.309,
+        "losslessSha256Exact": false,
+        "note": null
+      }
+    },
+    {
+      "file": "03_siemens_acuson_16bit_implicit.dcm",
+      "manufacturer": "SIEMENS",
+      "modelName": "ACUSON SC2000",
+      "transferSyntaxUid": "1.2.840.10008.1.2",
+      "transferSyntaxName": "Implicit VR Little Endian",
+      "dimensions": "240x240x1",
+      "photometric": "MONOCHROME2",
+      "bitsAllocated": 16,
+      "calibrationResolved": {
+        "spacingMm": [
+          0.28,
+          0.28
+        ],
+        "source": "PixelSpacing"
+      },
+      "modularWasmAdapter": {
+        "parseMs": 0.376,
+        "decodeOk": true,
+        "coldFrame0Ms": 1.592,
+        "losslessSha256Exact": true,
+        "error": null
+      },
+      "dwv036": {
+        "parseOk": true,
+        "parseMs": 0.453,
+        "decodeOk": true,
+        "frame0Ms": 0.06,
+        "losslessSha256Exact": true,
+        "note": null
+      }
+    },
+    {
+      "file": "04_samsung_v8_cine_jpeg_baseline.dcm",
+      "manufacturer": "SAMSUNG MEDISON",
+      "modelName": "V8",
+      "transferSyntaxUid": "1.2.840.10008.1.2.4.50",
+      "transferSyntaxName": "JPEG Baseline (Process 1, 8-bit)",
+      "dimensions": "256x192x10",
+      "photometric": "MONOCHROME2",
+      "bitsAllocated": 8,
+      "calibrationResolved": {
+        "spacingMm": [
+          0.32,
+          0.32
+        ],
+        "source": "PixelSpacing"
+      },
+      "modularWasmAdapter": {
+        "parseMs": 0.562,
+        "decodeOk": true,
+        "coldFrame0Ms": 28.949,
+        "losslessSha256Exact": null,
+        "error": null
+      },
+      "dwv036": {
+        "parseOk": true,
+        "parseMs": 2.147,
+        "decodeOk": true,
+        "frame0Ms": 11.421,
+        "losslessSha256Exact": null,
+        "note": null
+      }
+    },
+    {
+      "file": "05_ge_vivid_color_jpeg_ybr422.dcm",
+      "manufacturer": "GE Healthcare",
+      "modelName": "Vivid S70N",
+      "transferSyntaxUid": "1.2.840.10008.1.2.4.50",
+      "transferSyntaxName": "JPEG Baseline (Process 1, 8-bit)",
+      "dimensions": "256x192x8",
+      "photometric": "YBR_FULL_422",
+      "bitsAllocated": 8,
+      "calibrationResolved": {
+        "spacingMm": [
+          0.34,
+          0.34
+        ],
+        "source": "SequenceOfUltrasoundRegions"
+      },
+      "modularWasmAdapter": {
+        "parseMs": 0.624,
+        "decodeOk": true,
+        "coldFrame0Ms": 1.417,
+        "losslessSha256Exact": null,
+        "error": null
+      },
+      "dwv036": {
+        "parseOk": true,
+        "parseMs": 0.556,
+        "decodeOk": true,
+        "frame0Ms": 17.715,
+        "losslessSha256Exact": null,
+        "note": null
+      }
+    },
+    {
+      "file": "06_mindray_resona_jpeg_lossless_p14sv1.dcm",
+      "manufacturer": "Mindray",
+      "modelName": "Resona I9",
+      "transferSyntaxUid": "1.2.840.10008.1.2.4.70",
+      "transferSyntaxName": "JPEG Lossless First-Order Prediction (P14SV1)",
+      "dimensions": "256x192x8",
+      "photometric": "MONOCHROME2",
+      "bitsAllocated": 8,
+      "calibrationResolved": {
+        "spacingMm": [
+          0.31,
+          0.31
+        ],
+        "source": "PixelSpacing"
+      },
+      "modularWasmAdapter": {
+        "parseMs": 0.439,
+        "decodeOk": true,
+        "coldFrame0Ms": 37.638,
+        "losslessSha256Exact": true,
+        "error": null
+      },
+      "dwv036": {
+        "parseOk": true,
+        "parseMs": 1.216,
+        "decodeOk": true,
+        "frame0Ms": 17.748,
+        "losslessSha256Exact": true,
+        "note": null
+      }
+    },
+    {
+      "file": "07_canon_aplio_jpegls_lossless.dcm",
+      "manufacturer": "Canon Medical Systems",
+      "modelName": "Aplio i900",
+      "transferSyntaxUid": "1.2.840.10008.1.2.4.80",
+      "transferSyntaxName": "JPEG-LS Lossless",
+      "dimensions": "256x192x8",
+      "photometric": "MONOCHROME2",
+      "bitsAllocated": 8,
+      "calibrationResolved": {
+        "spacingMm": [
+          0.29,
+          0.29
+        ],
+        "source": "PixelSpacing"
+      },
+      "modularWasmAdapter": {
+        "parseMs": 0.242,
+        "decodeOk": true,
+        "coldFrame0Ms": 15.622,
+        "losslessSha256Exact": true,
+        "error": null
+      },
+      "dwv036": {
+        "parseOk": false,
+        "parseMs": null,
+        "decodeOk": false,
+        "frame0Ms": null,
+        "losslessSha256Exact": null,
+        "note": "Unsupported DICOM transfer syntax: '1.2.840.10008.1.2.4.80' (JPEG-LS Lossless Image Compression)"
+      }
+    },
+    {
+      "file": "08_philips_epiq_jpeg2000_lossless.dcm",
+      "manufacturer": "Philips Medical Systems",
+      "modelName": "EPIQ CVx",
+      "transferSyntaxUid": "1.2.840.10008.1.2.4.90",
+      "transferSyntaxName": "JPEG 2000 Image Compression (Lossless Only)",
+      "dimensions": "320x240x12",
+      "photometric": "MONOCHROME2",
+      "bitsAllocated": 8,
+      "calibrationResolved": {
+        "spacingMm": [
+          0.27,
+          0.27
+        ],
+        "source": "PixelSpacing"
+      },
+      "modularWasmAdapter": {
+        "parseMs": 0.294,
+        "decodeOk": true,
+        "coldFrame0Ms": 42.218,
+        "losslessSha256Exact": true,
+        "error": null
+      },
+      "dwv036": {
+        "parseOk": true,
+        "parseMs": 3.118,
+        "decodeOk": true,
+        "frame0Ms": 76.793,
+        "losslessSha256Exact": true,
+        "note": null
+      }
+    },
+    {
+      "file": "09_philips_ie33_rle_lossless.dcm",
+      "manufacturer": "Philips Medical Systems",
+      "modelName": "iE33",
+      "transferSyntaxUid": "1.2.840.10008.1.2.5",
+      "transferSyntaxName": "RLE Lossless",
+      "dimensions": "256x192x8",
+      "photometric": "MONOCHROME2",
+      "bitsAllocated": 8,
+      "calibrationResolved": {
+        "spacingMm": [
+          0.3,
+          0.3
+        ],
+        "source": "PixelSpacing"
+      },
+      "modularWasmAdapter": {
+        "parseMs": 0.51,
+        "decodeOk": true,
+        "coldFrame0Ms": 1.629,
+        "losslessSha256Exact": true,
+        "error": null
+      },
+      "dwv036": {
+        "parseOk": true,
+        "parseMs": 0.324,
+        "decodeOk": true,
+        "frame0Ms": 1.228,
+        "losslessSha256Exact": true,
+        "note": null
+      }
+    },
+    {
+      "file": "10_uncalibrated_handheld_us.dcm",
+      "manufacturer": "Handheld Ultrasound",
+      "modelName": "PocketProbe P1",
+      "transferSyntaxUid": "1.2.840.10008.1.2.1",
+      "transferSyntaxName": "Explicit VR Little Endian",
+      "dimensions": "256x192x1",
+      "photometric": "MONOCHROME2",
+      "bitsAllocated": 8,
+      "calibrationResolved": null,
+      "modularWasmAdapter": {
+        "parseMs": 0.292,
+        "decodeOk": true,
+        "coldFrame0Ms": 0.135,
+        "losslessSha256Exact": true,
+        "error": null
+      },
+      "dwv036": {
+        "parseOk": true,
+        "parseMs": 0.29,
+        "decodeOk": true,
+        "frame0Ms": 0.009,
+        "losslessSha256Exact": true,
+        "note": null
+      }
+    },
+    {
+      "file": "11_unsupported_mpeg2_stub.dcm",
+      "manufacturer": "Legacy Vendor",
+      "modelName": "EchoStation Video",
+      "transferSyntaxUid": "1.2.840.10008.1.2.4.100",
+      "transferSyntaxName": "DICOM Encapsulated Video (1.2.840.10008.1.2.4.100)",
+      "dimensions": "320x240x30",
+      "photometric": "MONOCHROME2",
+      "bitsAllocated": 8,
+      "calibrationResolved": {
+        "spacingMm": [
+          0.3,
+          0.3
+        ],
+        "source": "PixelSpacing"
+      },
+      "modularWasmAdapter": {
+        "parseMs": 0.194,
+        "decodeOk": false,
+        "coldFrame0Ms": null,
+        "losslessSha256Exact": null,
+        "error": "Unsupported DICOM Transfer Syntax: DICOM Encapsulated Video (1.2.840.10008.1.2.4.100) (1.2.840.10008.1.2.4.100). Encapsulated MPEG2/H.264/HEVC video is lossy and excluded from measurement path; use DICOMweb WADO-RS rendered preview or transcode offline."
+      },
+      "dwv036": {
+        "parseOk": false,
+        "parseMs": null,
+        "decodeOk": false,
+        "frame0Ms": null,
+        "losslessSha256Exact": null,
+        "note": "Unsupported DICOM transfer syntax: '1.2.840.10008.1.2.4.100' (MPEG2 Main Profile / Main Level)"
+      }
+    }
+  ],
+  "bench720p30f": [
+    {
+      "file": "bench_720p_uncompressed.dcm",
+      "transferSyntaxUid": "1.2.840.10008.1.2.1",
+      "transferSyntaxName": "Explicit VR Little Endian",
+      "fileSizeMiB": 26.37,
+      "resolution": "1280x720",
+      "frames": 30,
+      "modularWasmEngine": {
+        "decoderId": "uncompressed",
+        "parseMs": 0.22,
+        "coldFirstFrameMs": 5.87,
+        "warmAvgDecodeMs": 2.6,
+        "warmP95DecodeMs": 3.51,
+        "avgRgbaWindowLevelMs": 7.5,
+        "totalFramePipelineMs": 10.11,
+        "achievableSingleWorkerFps": 98.9,
+        "losslessSha256Exact": true
+      },
+      "dwv036Engine": {
+        "supported": true,
+        "parseMs": 14.32,
+        "avgDecodeMs": 0.68,
+        "achievableDecodeFps": 1478.5,
+        "losslessSha256Exact": false,
+        "sampledFrames": 30
+      }
+    },
+    {
+      "file": "bench_720p_rle_lossless.dcm",
+      "transferSyntaxUid": "1.2.840.10008.1.2.5",
+      "transferSyntaxName": "RLE Lossless",
+      "fileSizeMiB": 7.84,
+      "resolution": "1280x720",
+      "frames": 30,
+      "modularWasmEngine": {
+        "decoderId": "rle-js",
+        "parseMs": 2.98,
+        "coldFirstFrameMs": 14.23,
+        "warmAvgDecodeMs": 3.24,
+        "warmP95DecodeMs": 3.93,
+        "avgRgbaWindowLevelMs": 6.48,
+        "totalFramePipelineMs": 9.72,
+        "achievableSingleWorkerFps": 102.8,
+        "losslessSha256Exact": true
+      },
+      "dwv036Engine": {
+        "supported": true,
+        "parseMs": 3.73,
+        "avgDecodeMs": 1.59,
+        "achievableDecodeFps": 628.4,
+        "losslessSha256Exact": true,
+        "sampledFrames": 30
+      }
+    },
+    {
+      "file": "bench_720p_jpeg_baseline.dcm",
+      "transferSyntaxUid": "1.2.840.10008.1.2.4.50",
+      "transferSyntaxName": "JPEG Baseline (Process 1, 8-bit)",
+      "fileSizeMiB": 1.7,
+      "resolution": "1280x720",
+      "frames": 30,
+      "modularWasmEngine": {
+        "decoderId": "libjpeg-turbo-wasm",
+        "parseMs": 0.39,
+        "coldFirstFrameMs": 5.41,
+        "warmAvgDecodeMs": 4.14,
+        "warmP95DecodeMs": 4.94,
+        "avgRgbaWindowLevelMs": 5.93,
+        "totalFramePipelineMs": 10.08,
+        "achievableSingleWorkerFps": 99.2,
+        "losslessSha256Exact": null
+      },
+      "dwv036Engine": {
+        "supported": true,
+        "parseMs": 3.67,
+        "avgDecodeMs": 10.97,
+        "achievableDecodeFps": 91.1,
+        "losslessSha256Exact": null,
+        "sampledFrames": 30
+      }
+    },
+    {
+      "file": "bench_720p_jpegls_lossless.dcm",
+      "transferSyntaxUid": "1.2.840.10008.1.2.4.80",
+      "transferSyntaxName": "JPEG-LS Lossless",
+      "fileSizeMiB": 2.22,
+      "resolution": "1280x720",
+      "frames": 30,
+      "modularWasmEngine": {
+        "decoderId": "charls-wasm",
+        "parseMs": 0.5,
+        "coldFirstFrameMs": 8.68,
+        "warmAvgDecodeMs": 7.7,
+        "warmP95DecodeMs": 9.41,
+        "avgRgbaWindowLevelMs": 7.16,
+        "totalFramePipelineMs": 14.86,
+        "achievableSingleWorkerFps": 67.3,
+        "losslessSha256Exact": true
+      },
+      "dwv036Engine": {
+        "supported": false,
+        "reason": "Unsupported DICOM transfer syntax: '1.2.840.10008.1.2.4.80' (JPEG-LS Lossless Image Compression)"
+      }
+    },
+    {
+      "file": "bench_720p_jpeg2000_lossless.dcm",
+      "transferSyntaxUid": "1.2.840.10008.1.2.4.90",
+      "transferSyntaxName": "JPEG 2000 Image Compression (Lossless Only)",
+      "fileSizeMiB": 2.53,
+      "resolution": "1280x720",
+      "frames": 30,
+      "modularWasmEngine": {
+        "decoderId": "openjpeg-wasm",
+        "parseMs": 2.32,
+        "coldFirstFrameMs": 30.76,
+        "warmAvgDecodeMs": 31.04,
+        "warmP95DecodeMs": 42.95,
+        "avgRgbaWindowLevelMs": 7.37,
+        "totalFramePipelineMs": 38.41,
+        "achievableSingleWorkerFps": 26,
+        "losslessSha256Exact": true
+      },
+      "dwv036Engine": {
+        "supported": true,
+        "parseMs": 2.1,
+        "avgDecodeMs": 102.68,
+        "achievableDecodeFps": 9.7,
+        "losslessSha256Exact": true,
+        "sampledFrames": 5
+      }
+    },
+    {
+      "file": "bench_720p_jpeg2000_lossy.dcm",
+      "transferSyntaxUid": "1.2.840.10008.1.2.4.91",
+      "transferSyntaxName": "JPEG 2000 Image Compression",
+      "fileSizeMiB": 0.33,
+      "resolution": "1280x720",
+      "frames": 30,
+      "modularWasmEngine": {
+        "decoderId": "openjpeg-wasm",
+        "parseMs": 0.57,
+        "coldFirstFrameMs": 15.75,
+        "warmAvgDecodeMs": 13.98,
+        "warmP95DecodeMs": 18.55,
+        "avgRgbaWindowLevelMs": 7.03,
+        "totalFramePipelineMs": 21,
+        "achievableSingleWorkerFps": 47.6,
+        "losslessSha256Exact": null
+      },
+      "dwv036Engine": {
+        "supported": true,
+        "parseMs": 1.1,
+        "avgDecodeMs": 55.47,
+        "achievableDecodeFps": 18,
+        "losslessSha256Exact": null,
+        "sampledFrames": 5
+      }
+    }
+  ],
+  "memoryBudget120f720pRgb": {
+    "singleFrameMiB": 2.64,
+    "unbounded120FramesMiB": 316.41,
+    "configuredCacheBudgetMiB": 96,
+    "measuredHighWaterMarkMiB": 94.92,
+    "residentFramesAtSteadyState": 36,
+    "evictionsDuring120FrameSweep": 84
+  }
+}

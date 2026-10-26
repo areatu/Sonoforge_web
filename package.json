@@ -1,0 +1,43 @@
+{
+  "name": "sonoforge-web-spike",
+  "version": "0.0.1-spike.0",
+  "private": true,
+  "license": "GPL-3.0-only",
+  "type": "module",
+  "description": "SonoForge Web — Stage 0 Technical Spike (DICOM engine, calculation runtime, browser prototype)",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 4173",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "spike:fixtures": "python3 spike/scripts/generate_echo_fixtures.py",
+    "spike:golden": "python3 spike/scripts/generate_golden_vectors.py",
+    "spike:bench-dicom": "node spike/scripts/bench_dicom_engines.mjs",
+    "spike:bench-pyodide": "node spike/scripts/eval_pyodide.mjs",
+    "spike:bench-bundles": "node spike/scripts/bench_bundle_sizes.mjs"
+  },
+  "dependencies": {
+    "@cornerstonejs/codec-charls": "1.2.7",
+    "@cornerstonejs/codec-libjpeg-turbo-8bit": "1.2.7",
+    "@cornerstonejs/codec-openjpeg": "1.3.6",
+    "@cornerstonejs/codec-openjph": "2.4.11",
+    "@cornerstonejs/jpeg-lossless-decoder-js": "2.2.1",
+    "dicom-parser": "1.8.21",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@cornerstonejs/core": "5.13.2",
+    "@cornerstonejs/dicom-image-loader": "5.13.2",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^6.0.0",
+    "dwv": "0.36.4",
+    "pyodide": "0.27.5",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.0",
+    "vitest": "^5.0.0"
+  }
+}
